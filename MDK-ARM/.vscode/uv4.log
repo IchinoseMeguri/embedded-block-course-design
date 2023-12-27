@@ -1,0 +1,105 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'CourseDesign'
+compiling main.c...
+../Core/Src/main.c(204): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB0, data % 2);
+../Core/Src/main.c(205): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB1, (data >> 1) % 2);
+../Core/Src/main.c(206): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB2, (data >> 2) % 2);
+../Core/Src/main.c(207): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB3, (data >> 3) % 2);
+../Core/Src/main.c(208): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB4, (data >> 4) % 2);
+../Core/Src/main.c(209): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB5, (data >> 5) % 2);
+../Core/Src/main.c(210): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB6, (data >> 6) % 2);
+../Core/Src/main.c(211): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(PB7, (data >> 7) % 2);
+../Core/Src/main.c(215): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RW, 1);
+../Core/Src/main.c(216): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RS, 0);
+../Core/Src/main.c(217): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(E, 1);
+../Core/Src/main.c(220): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(E, 0);
+../Core/Src/main.c(224): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(E, 1);
+../Core/Src/main.c(228): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RS, 0);
+../Core/Src/main.c(229): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RW, 0);
+../Core/Src/main.c(230): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(E, 1);
+../Core/Src/main.c(232): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(E, 0);
+../Core/Src/main.c(236): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RS, 1);
+../Core/Src/main.c(237): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RW, 0);
+../Core/Src/main.c(238): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(E, 1);
+../Core/Src/main.c(240): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(E, 0);
+../Core/Src/main.c(257): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(CS1, 1);
+../Core/Src/main.c(258): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(CS2, 0);
+../Core/Src/main.c(263): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(CS1, 0);
+../Core/Src/main.c(264): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(CS2, 1);
+../Core/Src/main.c(451): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RIGHT, 1);
+../Core/Src/main.c(452): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(LEFT, 1);
+../Core/Src/main.c(453): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(DOWN, 0);
+../Core/Src/main.c(489): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RIGHT, 1);
+../Core/Src/main.c(490): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(DOWN, 1);
+../Core/Src/main.c(491): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(LEFT, 0);
+../Core/Src/main.c(527): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(LEFT, 1);
+../Core/Src/main.c(528): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(DOWN, 1);
+../Core/Src/main.c(529): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RIGHT, 0);
+../Core/Src/main.c(607): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(SIGNAL, 0);
+../Core/Src/main.c(608): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(LEFT, 1);
+../Core/Src/main.c(609): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RIGHT, 1);
+../Core/Src/main.c(610): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(DOWN, 1);
+../Core/Src/main.c(641): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(SIGNAL, 0);
+../Core/Src/main.c(642): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(LEFT, 1);
+../Core/Src/main.c(643): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RIGHT, 1);
+../Core/Src/main.c(644): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(DOWN, 1);
+../Core/Src/main.c(656): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(TYPE1, (ADC_Value % 400) / 200);
+../Core/Src/main.c(657): warning:  #188-D: enumerated type mixed with another type
+          HAL_GPIO_WritePin(TYPE0, (ADC_Value % 200) / 100);
+../Core/Src/main.c(680): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(SIGNAL, 1);
+../Core/Src/main.c(681): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(LEFT, 1);
+../Core/Src/main.c(682): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(RIGHT, 1);
+../Core/Src/main.c(683): warning:  #188-D: enumerated type mixed with another type
+      HAL_GPIO_WritePin(DOWN, 1);
+../Core/Src/main.c: 48 warnings, 0 errors
+linking...
+Program Size: Code=10580 RO-data=460 RW-data=740 ZI-data=2068  
+FromELF: creating hex file...
+"CourseDesign\CourseDesign.axf" - 0 Error(s), 48 Warning(s).
+Build Time Elapsed:  00:00:03
